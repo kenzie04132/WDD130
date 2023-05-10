@@ -1,12 +1,24 @@
 /* This is a comment. It was made by typing the comment first, then holding command, then hitting forwards slash */
+/* Below is called a css rule. The first part is the selector, which is img. This identifies the element that is being styled.  */
+/* Within the rule is a statement. It is a name value pair, or key value pair. The ex. width is called a property. After the colon is the value. Always end the satement with a semi-colon */
+/*  */
 img{
     width: 350px;
     float: right;
-
+/* Can be written (wdith: 350px; float: right;) with them right after each other, but it is not preferred. */
 }
 
+/* Selector and rule is h1 or header 1, the property is color, the value is orange. */
+h1{
+    color: orange;
+}
 
-section{
-
+/* For this, the selector is p or paragraph, the rule is also p. The property is color. The value is purple */
+p{
     color: purple;
+}
+
+/* The selector and rule is section, the property is background color, the value is light grey. */
+section{
+    background-color: lightgrey;
 }
