@@ -18,7 +18,10 @@ p{
     color: purple;
 }
 
-/* The selector and rule is section, the property is background color, the value is light grey. */
+/* The selector and rule is section, the property is background color, overflow, and padding. The value is light grey, auto, and 25px. */
+/* Overflow and padding go into section because section is the parent element for both the header, paragraph, and image. */
 section{
     background-color: lightgrey;
+    overflow: auto;
+    padding: 25px;
 }
