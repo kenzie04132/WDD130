@@ -1,0 +1,17 @@
+/* SHOULD BE THE VERY FIRST CSS RULE IN EVERY FUTURE ASSIGNMENT */
+/* saves time for calculating the pixel width of the webpage in the future */
+body{
+    box-sizing: border-box;
+}
+
+p{
+    width: 50%;
+}
+
+/* .coolguy calls the paragraph class name */
+.coolguy{
+    width: 58em;
+    padding: 1rem;
+    border: 1vw dashed aqua;
+    margin: 1vh;
+}
