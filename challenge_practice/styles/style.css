@@ -45,8 +45,8 @@ main{
     border: 20px solid #444444;
     border-radius: 50%;
     width: 25%;
-    margin: 30px;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 .man{
