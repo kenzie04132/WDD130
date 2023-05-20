@@ -9,22 +9,32 @@ header{
 
 nav a{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     color: #faf9ec;
     text-decoration: none;
+    font-size: 2em;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color: #86ba90;
+    font-family: 'Times New Roman', Times, serif;
     color: #faf9ec;
+    font-size: 2em;
 }
 
 .home-title{
     color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
 
 #hero-img{
@@ -39,6 +49,10 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
     background-color: #86ba90;
@@ -46,10 +60,16 @@ main section{
 
 body{
     background-color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-.img{
-    width: 200px;
+.card-img{
+    width: 600px;
+    text-align: center;
+    border: 10px solid #093824;
 }
 
 .logo{
@@ -57,48 +77,76 @@ body{
 }
 
 .icon{
-    width:80px
+    width: 80px;
+    padding-top: 10px
 }
 
 .book, .join{
     background-color: #093824;
     color: #faf9ec;
     text-decoration: none;
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color: #86ba90;
     color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
 
 .msg{
     background-color: #093824;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 0;
 }
 
 .msg p{
     color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #093824;
     color: #faf9ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
     color: #faf9ec;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a:hover{
     color: #faf9ec;
     text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
 }
