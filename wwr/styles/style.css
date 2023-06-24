@@ -43,6 +43,12 @@ nav a:hover{
     margin-top: 10px;
 }
 
+.title, .year{
+    color: #093824;
+    text-align: center;
+    font-size: 3em;
+}
+
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -79,6 +85,12 @@ nav a:hover{
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
 }
 
 .home-grid section{
@@ -145,6 +157,70 @@ body{
 .icon{
     width: 80px;
     padding-top: 10px;
+}
+
+.gc-3-title{
+    grid-column: 2/6;
+    grid-row: 1;
+    font-size: 2em;
+    text-align: center;
+    color: #faf9ec;
+}
+
+.grand-canyon-3-card{
+    grid-column: 2/6;
+    grid-row: 1;
+    font-size: 2em;
+    color: #093824;
+    border: 10px solid #093824;
+}
+
+.gc-6-title{
+    grid-column: 2/6;
+    grid-row: 2;
+    font-size: 2em;
+    text-align: center;
+    color: #faf9ec;
+}
+
+.grand-canyon-6-card{
+    grid-column: 2/6;
+    grid-row: 2;
+    font-size: 2em;
+    color: #093824;
+    border: 10px solid #093824;
+}
+
+.sr-title{
+    grid-column: 6/10;
+    grid-row: 1;
+    font-size: 2em;
+    text-align: center;
+    color: #faf9ec;
+}
+
+.salmon-river-card{
+    grid-column: 6/10;
+    grid-row: 1;
+    font-size: 2em;
+    color: #093824;
+    border: 10px solid #093824;
+}
+
+.ds-title{
+    grid-column: 6/10;
+    grid-row: 2;
+    font-size: 2em;
+    text-align: center;
+    color: #faf9ec;
+}
+
+.desolation-card{
+    grid-column: 6/10;
+    grid-row: 2;
+    font-size: 2em;
+    color: #093824;
+    border: 10px solid #093824;
 }
 
 .book, .join{
