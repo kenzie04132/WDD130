@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>National Parks Travel Planner</title>
     <link type="text/css" rel="stylesheet" href="./styles.css/styles.css">
+    <script src="./inputprogram.js"></script>
 </head>
 <body>
     <div id="content">
@@ -19,14 +20,39 @@
                 <a href="locations.html">Locations</a>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="./images/yellowstoneheader.jpg" alt="The natural hot springs of Yellowstone National Park">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="./images/yellowstoneheader.jpg" style="width:100%">
+                <div class="text">Natural hot spring pools.</div>
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">National Parks Travel Planner</h1>
-                <h4>Plan Your Dream Trip To Yellowstone National Park</h4>    
-            </section>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="./images/oldfaithfulheader.jpg" style="width:100%">
+                <div class="text">Old faithful geyser.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="./images/mammothspringsheader.jpg" style="width:100%">
+                <div class="text">The rock formations of mammoth hot springs.</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+         <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         <main class="home-grid">
             <h1>Welcome!</h1>
