@@ -95,6 +95,40 @@ nav a:hover{
     box-sizing: border-box;
 }
 
+main, h4{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #420C14;
+}
+
+h2{
+    text-align: center;
+    color: #420C14;
+}
+
+h3{
+    color: #732C2C;
+}
+
+.secondary-picture{
+    border: 10px solid #420C14;
+}
+
+.reccomendation-link{
+    border: 10px solid #ABA361;
+}
+
+.link-icon{
+    padding: 20px;
+    width: 20%;
+}
+
+.links{
+    border: 10px solid #420C14;
+    background-color: #732C2C;
+}
+
 #background{
     height: 725px;
     background-color: #732C2C;
