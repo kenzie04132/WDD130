@@ -111,8 +111,38 @@ h3{
     color: #732C2C;
 }
 
+.header-picture{
+    border: 10px solid #420C14;
+    width: 1250px;
+}
+
 .secondary-picture{
     border: 10px solid #420C14;
+    width: 750px;
+}
+
+.easy-trail{
+    padding-bottom: 50px;
+}
+
+.easy-trail, p{
+    text-align: center;
+}
+
+.moderate-trail, p{
+    text-align: center;
+}
+
+.moderate-trail{
+    padding-bottom: 50px;
+}
+
+.hard-trail, p{
+    text-align: center;
+}
+
+.hard-trail{
+    padding-bottom: 50px;
 }
 
 .reccomendation-link{
